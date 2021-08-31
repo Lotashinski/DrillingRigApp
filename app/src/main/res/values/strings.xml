@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">DrillApp</string>
+    <string name="title_activity_main">DrillApp</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="place_title">Place title</string>
+    <string name="dd_mm_yyyy">dd.mm.yyyy</string>
+    <string name="place_description">Place description</string>
+    <string name="description">Description</string>
+
+    <string name="create_new_place">Create new place</string>
+    <string name="saved_places">Saved places</string>
+    <string name="created_at">created at</string>
+    <string name="device_mac">Device MAC</string>
+    <string name="device_status">Device status</string>
+
+    <string name="device_title">Device title</string>
+    <string name="select_device">Select device</string>
+    <string name="current_device">Current device</string>
+    <string name="device_status_ok">online</string>
+    <string name="device_status_offline">offline</string>
+    <string name="device_status_warn">warn</string>
+    <string name="device_offline">Device offline</string>
+    <string name="device_buffer">Device buffer</string>
+
+</resources>

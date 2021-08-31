@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DrillApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ui_primary_main</item>
+        <item name="colorPrimaryVariant">@color/ui_primary_light</item>
+        <item name="colorPrimaryDark">@color/ui_primary_dark</item>
+        <item name="colorOnPrimary">@color/text_primary_main</item>
+        <item name="android:textColorPrimary">@color/text_primary_main</item>
+        <item name="android:textColor">@color/black</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ui_secondary_main</item>
+        <item name="colorSecondaryVariant">@color/ui_secondary_light</item>
+        <item name="colorOnSecondary">@color/text_secondary_main</item>
+        <item name="android:textColorSecondary">@color/text_secondary_main</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:text" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.DrillApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.DrillApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.DrillApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

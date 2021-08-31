@@ -1,0 +1,17 @@
+package com.github.lotashinski.drillapp.ui.activity
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.github.lotashinski.drillapp.databinding.ActivityMainBinding
+
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+    }
+
+}

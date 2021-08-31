@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="orange">#AC6F15</color>
+
+    <color name="ui_primary_main">#BDBDBD</color>
+    <color name="ui_primary_light">#EFEFEF</color>
+    <color name="ui_primary_dark">#8d8d8d</color>
+
+    <color name="ui_secondary_main">#E57373</color>
+    <color name="ui_secondary_light">#FFA4A2</color>
+    <color name="ui_secondary_dark">#AF4448</color>
+
+    <color name="text_primary_main">#000000</color>
+    <color name="text_primary_light">#000000</color>
+    <color name="text_primary_dark">#000000</color>
+
+    <color name="text_secondary_main">#000000</color>
+    <color name="text_secondary_light">#000000</color>
+    <color name="text_secondary_dark">#FFFFFF</color>
+
+    <color name="text_device_status_warn">@color/orange</color>
+    <color name="text_device_status_ok">@color/green</color>
+    <color name="text_device_status_error">@color/red</color>
+
+</resources>
