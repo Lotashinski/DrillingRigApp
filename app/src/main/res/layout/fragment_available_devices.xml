@@ -3,25 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ui_primary_light"
-    tools:context=".ui.fragment.device.available.list.AvailableDevicesFragment">
-
-    <include
-        android:id="@+id/toolbar"
-        layout="@layout/fragment_available_devices_toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/toolbar_height"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+    android:background="@color/ui_primary_content"
+    tools:context=".ui.fragment.device.available.AvailableDevicesFragment">
 
     <include
         android:id="@id/content"
         layout="@layout/fragment_available_devices_content"
-        android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:layout_below="@+id/toolbar"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true" />
 

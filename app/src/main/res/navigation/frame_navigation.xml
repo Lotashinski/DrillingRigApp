@@ -3,8 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/placesFragment">
+    app:startDestination="@+id/mainStatusFragment">
 
-
+    <fragment
+        android:id="@+id/mainStatusFragment"
+        android:name="com.github.lotashinski.drillapp.ui.fragment.main.MainStatusFragment"
+        android:label="fragment_device_status"
+        tools:layout="@layout/fragment_main_status" />
+    <fragment
+        android:id="@+id/availableDevicesFragment"
+        android:name="com.github.lotashinski.drillapp.ui.fragment.device.available.AvailableDevicesFragment"
+        android:label="fragment_available_devices"
+        tools:layout="@layout/fragment_available_devices" />
 
 </navigation>

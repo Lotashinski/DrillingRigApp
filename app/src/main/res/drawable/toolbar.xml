@@ -2,13 +2,13 @@
 
     <item android:top="@dimen/shadow_size">
         <shape>
-            <solid android:color="@color/black" />
+            <solid android:color="@color/ui_primary_dark" />
         </shape>
     </item>
 
     <item android:bottom="@dimen/shadow_size">
         <shape>
-            <solid android:color="@color/ui_primary_main" />
+            <solid android:color="@color/ui_primary_light" />
         </shape>
     </item>
 
